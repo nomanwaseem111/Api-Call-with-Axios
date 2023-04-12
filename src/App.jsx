@@ -35,7 +35,7 @@ const App = () => {
   return (
     <>
       {
-        showData.length > 0 ? <ShoppingCart data={showData} /> : <h1 className='loading'>Loading....</h1> 
+        showData.length > 0 ? <ShoppingCart data={showData} /> : <div class="loader">Loading...</div> 
       }
 
     </>
